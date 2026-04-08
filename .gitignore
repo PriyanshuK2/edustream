@@ -1,0 +1,30 @@
+# --- Maven ---
+target/
+*.jar
+*.war
+*.ear
+
+# --- STS / Eclipse Metadata ---
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+bin/
+Other/
+
+# --- IntelliJ / VS Code ---
+.idea/
+*.iml
+.vscode/
+
+# --- OS / Logs ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Security & Infrastructure (CRITICAL) ---
+.env
+*.key
+*.pem
+docker-compose.override.yml
